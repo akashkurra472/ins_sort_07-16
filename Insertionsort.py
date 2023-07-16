@@ -21,3 +21,16 @@ for i in range(len(a)): ## retriving each element from the sorted array and then
     print("%d" %a[i])
 
 ----------------------------##ash--------------------------------------------------------------------
+manual_input = []
+ 
+# number of elements as input
+new = int(input("Enter number of elements : "))
+ 
+# iterating till the range
+for i in range(0, new):
+    elements= int(input())
+    # adding the element
+    manual_input.append(elements) 
+    
+insertionsort(manual_input)
+print(manual_input)
